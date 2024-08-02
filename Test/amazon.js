@@ -11,5 +11,7 @@ module.exports={
         'Test2':function(browser){
             browser.click('xpath',"//span[text()='Samsung']")
             .pause(2000)
+            .click('xpath',"(//span[@class='a-size-medium a-color-base a-text-normal'][1])")
+            .pause(3000)
         }
 }
